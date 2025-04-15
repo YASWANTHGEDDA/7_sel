@@ -1,0 +1,23 @@
+1. to chome and type the Chormedrive download
+
+2. Click on the first link which you found 
+     
+
+3. click chrome version 115+
+ 
+
+4.after that  click the stable 
+
+
+5.after that copy the url and paste in another tab it will download the zip file extract those zip file and paste the chromedrive.exe into your workspace
+
+6.pip install selenium 
+
+7.build the docker image by using the docker file
+    
+    docker build -t image_name .
+
+
+8.create the test.py file and run the application 
+    python test.py
+
