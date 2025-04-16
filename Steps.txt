@@ -21,3 +21,41 @@
 8.create the test.py file and run the application 
     python test.py
 
+
+for experiment number 10 
+we require the flask application without dockerfile
+and test.py file ,chromedriver.exe
+
+in test.py file we nee to write the test cases code 
+by accessing the with what name you used in .html code id_names
+
+for running you need to do 
+1.python app.py 
+    after that copy the url of the application running url
+     and paste it in test.py file of driver.get()
+
+    example :- driver.get("http://localhost:5000")
+2.now run the cmd python test.py
+
+
+for experiment number 12
+we require the flask application , dockerfile
+and test.py file ,chromedriver.exe
+
+in test.py file we nee to write the test cases code 
+by accessing the with what name you used in .html code id_names
+
+for running you need to do 
+1. build the image by using the dockerfile by using the 
+docker build -t image_name .
+
+2.run the docker image
+   by using the docker run -p 5000:5000 image_name
+    after that copy the url of the application running url
+     and paste it in test.py file of driver.get()
+
+    example :- driver.get("http://localhost:5000")
+
+3.now run the cmd python test.py
+
+
